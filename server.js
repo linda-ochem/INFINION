@@ -4,7 +4,7 @@ const app = express();
 const PORT = 8081;
 
 app.get('/', (req, res) => {
-  res.send('simple Node.js server written with my pc on azure!');
+  res.send('simple Node.js server written with my pc on my azure account!');
 });
 
 app.listen(PORT, () => {
