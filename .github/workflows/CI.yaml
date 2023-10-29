@@ -32,5 +32,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t cleowoman/infinion .
+          docker build -t cleowoman/infinion:v1 .
           docker push cleowoman/infinion
